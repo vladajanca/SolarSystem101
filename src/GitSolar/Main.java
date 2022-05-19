@@ -8,7 +8,6 @@ public class Main {
         FactorX.Planet="2";
         FactorX.Stars="1000";
 
-
         //adding features to Sun
         FeatureSun Xfact=new FeatureSun();
         Xfact.color="green";
@@ -21,10 +20,18 @@ public class Main {
         FacX.radius="213235254";
         FacX.size="99999999";
 
+
         //adding features for planet2
         Planet2 Olso = new Planet2();
         Olso.name="Ozhan";
         Olso.size="694254km";
         Olso.color="red";
+
+        //adding planet features
+        Planet1Feature Mars=new Planet1Feature();
+        Mars.color="blue";
+        Mars.size="34234523424";
+        Mars.name="PlanetX";
+
     }
 }
